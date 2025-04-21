@@ -29,16 +29,16 @@ Build an interactive React-based webpage where each mouse click:
 
 dot-to-square/
 ├── public/
-│   └── index.html
+│   └── index.html                 # HTML entry point for the app
 ├── src/
-│   ├── App.jsx              <-- Main logic
+│   ├── App.jsx                    # Main app logic
 │   ├── components/
-│   │   ├── Dot.jsx          <-- Dot component
-│   │   └── Line.jsx         <-- Line component
-│   ├── App.css              <-- Styling
-│   └── main.jsx             <-- React entry
-├── README.md                <-- Instructions
-├── package.json
+│   │   ├── Dot.jsx                # Dot component
+│   │   └── Line.jsx               # Line component
+│   ├── App.css                    # Application styles
+│   └── main.jsx                   # React entry point
+├── README.md                      # Project instructions and documentation
+├── package.json                   # Project dependencies and scripts
 
 
 ## Demo
