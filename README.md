@@ -78,7 +78,7 @@ Ability to draw multiple squares.
 
 Reset button to clear the screen without refreshing.
 
-### 🧳 5. About the Assignment
+## 🧳 5. About the Assignment
 🧳 About the Assignment
 This project was completed as part of the SDE Intern Assignment for building an interactive dot-to-square drawing application using React.
 
