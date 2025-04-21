@@ -42,7 +42,7 @@ dot-to-square/
 
 
 ## Demo
-![App Screenshot](Screenshot(113).png)
+![App Screenshot](Screenshot.png)
 
 
 ## 🚀 Getting Started
