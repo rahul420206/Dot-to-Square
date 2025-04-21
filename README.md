@@ -60,7 +60,7 @@ npm start
 
 This will launch the app in your default browser at http://localhost:3000.
 
-### 🧠 4. Application Architecture
+## 🧠 4. Application Architecture
 
 App.jsx manages the main logic for state and rendering squares.
 
@@ -70,7 +70,7 @@ Line.jsx draws rotated <div>s between two points to simulate lines.
 
 App.css handles styling, animation, responsiveness, and layout.
 
-### 🧪 4. Optional Enhancements
+## 🧪 4. Optional Enhancements
 
 Visual animation when the square completes (a pulsing final dot).
 
