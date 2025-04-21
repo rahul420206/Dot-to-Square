@@ -1,12 +1,83 @@
-# React + Vite
+# Dot-to-Square Drawing Webpage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created as part of the **SDE Intern Assignment: Dot-to-Square Drawing Webpage (React Implementation)**.
 
-Currently, two official plugins are available:
+## 🎯 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build an interactive React-based webpage where each mouse click:
+- Places a dot at the clicked position.
+- Connects the dot to the previous one using a line.
+- After four clicks, completes a square by connecting the fourth dot back to the first.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ **Dot Creation:** A light gray dot is placed wherever the user clicks.
+- ✅ **Line Drawing:** Lines appear between consecutive dots.
+- ✅ **Square Formation:** The fourth dot connects back to the first to complete a square.
+- ✅ **Multiple Squares:** You can draw multiple squares, one after another.
+- ✅ **Reset Button:** A "Reset" button clears all dots and lines.
+- ✅ **User Feedback:** The final dot pulses briefly to indicate square completion.
+- ✅ **Responsive Design:** Works on both desktop and mobile screens.
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React (Functional Components & Hooks)
+- **Styling:** CSS
+- **Drawing Logic:** Regular DOM elements styled with CSS for flexibility and animation
+
+## 📁 Project Structure
+
+dot-to-square/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.jsx              <-- Main logic
+│   ├── components/
+│   │   ├── Dot.jsx          <-- Dot component
+│   │   └── Line.jsx         <-- Line component
+│   ├── App.css              <-- Styling
+│   └── main.jsx             <-- React entry
+├── README.md                <-- Instructions
+├── package.json
+
+
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/dot-to-square.git
+cd dot-to-square
+```
+
+### 2. Install Dependencies
+npm install
+
+### 3. Run the App
+npm start
+
+
+This will launch the app in your default browser at http://localhost:3000.
+
+
+🧠 Application Architecture
+App.jsx manages the main logic for state and rendering squares.
+
+Dot.jsx is a simple styled dot rendered at the user's click location.
+
+Line.jsx draws rotated <div>s between two points to simulate lines.
+
+App.css handles styling, animation, responsiveness, and layout.
+
+🧪 Optional Enhancements
+Visual animation when the square completes (a pulsing final dot).
+
+Ability to draw multiple squares.
+
+Reset button to clear the screen without refreshing.
+
+🧳 About the Assignment
+This project was completed as part of the SDE Intern Assignment for building an interactive dot-to-square drawing application using React.
+
+
