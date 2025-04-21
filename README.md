@@ -73,7 +73,7 @@ Line.jsx draws rotated <div>s between two points to simulate lines.
 
 App.css handles styling, animation, responsiveness, and layout.
 
-## 🧪 4. Optional Enhancements
+## 🧪 5. Optional Enhancements
 
 Visual animation when the square completes (a pulsing final dot).
 
@@ -81,7 +81,7 @@ Ability to draw multiple squares.
 
 Reset button to clear the screen without refreshing.
 
-## 🧳 5. About the Assignment
+## 🧳 6. About the Assignment
 🧳 About the Assignment
 This project was completed as part of the SDE Intern Assignment for building an interactive dot-to-square drawing application using React.
 
