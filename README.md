@@ -60,8 +60,7 @@ npm start
 
 This will launch the app in your default browser at http://localhost:3000.
 
-
-##🧠 Application Architecture
+### 🧠 4. Application Architecture
 
 App.jsx manages the main logic for state and rendering squares.
 
@@ -71,8 +70,7 @@ Line.jsx draws rotated <div>s between two points to simulate lines.
 
 App.css handles styling, animation, responsiveness, and layout.
 
-
-##🧪 Optional Enhancements
+### 🧪 4. Optional Enhancements
 
 Visual animation when the square completes (a pulsing final dot).
 
@@ -80,6 +78,7 @@ Ability to draw multiple squares.
 
 Reset button to clear the screen without refreshing.
 
+### 🧳 5. About the Assignment
 🧳 About the Assignment
 This project was completed as part of the SDE Intern Assignment for building an interactive dot-to-square drawing application using React.
 
