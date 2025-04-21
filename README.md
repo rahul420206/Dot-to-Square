@@ -61,7 +61,8 @@ npm start
 This will launch the app in your default browser at http://localhost:3000.
 
 
-🧠 Application Architecture
+##🧠 Application Architecture
+
 App.jsx manages the main logic for state and rendering squares.
 
 Dot.jsx is a simple styled dot rendered at the user's click location.
@@ -70,7 +71,9 @@ Line.jsx draws rotated <div>s between two points to simulate lines.
 
 App.css handles styling, animation, responsiveness, and layout.
 
-🧪 Optional Enhancements
+
+##🧪 Optional Enhancements
+
 Visual animation when the square completes (a pulsing final dot).
 
 Ability to draw multiple squares.
