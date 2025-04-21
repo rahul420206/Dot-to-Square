@@ -41,6 +41,9 @@ dot-to-square/
 ├── package.json
 
 
+## Demo
+![App Screenshot](screenshot.png)
+
 
 ## 🚀 Getting Started
 
